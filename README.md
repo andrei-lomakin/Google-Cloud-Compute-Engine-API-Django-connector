@@ -8,10 +8,10 @@ First, you need to install the library using pip:
 
 Next, you need to authenticate your application with the Google Compute Engine API by creating a service account and providing its credentials. You can do this by following these steps:
 
-+Go to the Google Cloud Console and select your project.
-+Click on the Navigation menu and select APIs & Services > Credentials.
-+Click on Create credentials and select Service account key.
-+Select a service account and a key type (JSON).
-+Click on Create to download the JSON key file.
-+Store the key file in a secure location, outside of your project directory.
-+Now that you have the authentication credentials, you can use the google-cloud-compute library to access your Google Compute Engine instances from your Django web application. Here in the `GCEAPI_connector.py` file is an example of how to do this.
++ Go to the Google Cloud Console and select your project.
++ Click on the Navigation menu and select APIs & Services > Credentials.
++ Click on Create credentials and select Service account key.
++ Select a service account and a key type (JSON).
++ Click on Create to download the JSON key file.
++ Store the key file in a secure location, outside of your project directory.
++ Now that you have the authentication credentials, you can use the google-cloud-compute library to access your Google Compute Engine instances from your Django web application. Here in the `GCEAPI_connector.py` file is an example of how to do this.
